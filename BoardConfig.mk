@@ -21,7 +21,7 @@
 # definition file).
 #
 
-DEVICE_PATH := device/xiaomi/wayne
+DEVICE_PATH := device/asus/X00TD
 
 # Build rules
 ALLOW_MISSING_DEPENDENCIES=true
@@ -74,7 +74,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_KERNEL_BASE        := 0x00000000
 BOARD_KERNEL_PAGESIZE    := 4096
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_PREBUILT_KERNEL := device/xiaomi/wayne/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/asus/X00TD/prebuilt/Image.gz-dtb
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
