@@ -129,7 +129,7 @@ BOARD_USES_METADATA_PARTITION := true
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # TWRP specific build flags
-TW_DEVICE_VERSION := wayne by xiaoleGun
+TW_DEVICE_VERSION := 1-4.19 kernel based  by SonicBSV
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
